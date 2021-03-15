@@ -243,4 +243,4 @@
 ## ----------------------------------
 -dontwarn **.bean.**
 -keep class **.bean.** { *;}
--keep class com.leeeyou.service.entity.** { *; }
+-keep class com.sp4a.service.entity.** { *; }

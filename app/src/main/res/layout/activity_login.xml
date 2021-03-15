@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorBackgroundDefault"
-    tools:context="com.leeeyou.login.LoginActivity">
+    tools:context="com.sp4a.login.LoginActivity">
 
     <ImageView
         android:id="@+id/iv_phone"

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorBackgroundDefault"
-    tools:context="com.leeeyou.setting.SettingActivity">
+    tools:context="com.sp4a.setting.SettingActivity">
 
     <ImageView
         android:id="@+id/iv_launcher"

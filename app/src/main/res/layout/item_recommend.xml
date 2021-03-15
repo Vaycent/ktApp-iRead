@@ -7,7 +7,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/list_selector">
 
-    <com.leeeyou.widget.WishListIconView
+    <com.sp4a.widget.WishListIconView
         android:id="@+id/wishListIcon"
         android:layout_width="72dp"
         android:layout_height="72dp"
