@@ -14,10 +14,10 @@ android {
 
     defaultConfig {
         applicationId "com.leeeyou.rskotlin"
-        minSdkVersion 16
+        minSdkVersion 20
         targetSdkVersion 28
-        versionCode 200
-        versionName "2.0.0"
+        versionCode 20210315
+        versionName "0.0.1"
     }
 
     lintOptions {
@@ -46,8 +46,6 @@ android {
         debug {
             minifyEnabled false
             shrinkResources false
-//            minifyEnabled true
-//            shrinkResources true
             jniDebuggable true
             debuggable true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
@@ -55,8 +53,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_7
-        targetCompatibility JavaVersion.VERSION_1_7
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
 
     sourceSets {
