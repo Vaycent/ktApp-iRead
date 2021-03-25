@@ -4,9 +4,12 @@ import android.animation.Animator
 import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import android.util.Log
 import android.view.View
 import com.jaeger.library.StatusBarUtil
+import com.sp4a.ermsystem.stages.sales.*
 import kotlinx.android.synthetic.main.activity_splash.*
+import java.util.*
 
 class SplashActivity : AppCompatActivity() {
 
@@ -32,5 +35,22 @@ class SplashActivity : AppCompatActivity() {
                 finish()
             }
         })
+
+        NotOrderd().Order()
+        var test= Ordered(1, Date(),1001,Date(),"Y")
+        test.Assess()
+        Log.e("Orderd","we main orderedId:"+test.orderedId)
+        Log.e("Orderd","we main orderedTimeStamp:"+test.getOrderedTimeStamp())
+        Log.e("Orderd","we main orderedOperatorId:"+test.getRrderedOperatorId())
+        Log.e("Orderd","we main orderedReceivedTimeStamp:"+test.getOrderedReceivedTimeStamp())
+        Log.e("Orderd","we main orderedState:"+test.getOrderedState())
+
+        Assessed().Generate()
+        Assessed().Purchase()
+        Purchased().Generate()
+        GeneratedContract().Sign()
+//        no.Assess()
+//        no.Generate()
+//        no.Purchase()
     }
 }
